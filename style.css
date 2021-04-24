@@ -1,0 +1,115 @@
+/* selectors */
+html{
+font-family: "Source Sans Pro", sans-serif;
+scroll-behavior: smooth;
+
+}
+
+body{
+margin: 0;
+background-image: url(assets/motherboard-wallpaper.jpg);
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+
+}
+
+/* classes */
+.t-align-c{
+  text-align: center;
+
+}
+
+.w-text{
+  color: white;
+
+}
+
+.pb-50{
+  padding-bottom: 50px;
+
+}
+
+.just-center{
+  justify-content: center;
+}
+
+.just-even{
+  justify-content: space-evenly;
+}
+.just-between{
+  justify-content: space-between;
+
+}
+
+.align-center{
+  align-items: center;
+}
+
+/* notes: utility classes used to apply styling to certain properties; pseudo classes creates using: */
+
+.page-header{
+  background-color: darkslategray;
+
+}
+
+.nav-item{
+  text-decoration: none;
+}
+
+.nav-item:hover{
+  color: steelblue;
+}
+
+.hero-image{
+  background-image: url(assets/lfz-logo.png);
+  background-color: #303b43;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 80%;
+  height: 350px;
+
+}
+
+.student-name{
+  font-size: 80px;
+  background-color: #303b43;
+  border-top: 5px double white;
+  border-bottom: 5px double white;
+
+}
+
+.about-section{
+  background-color: whitesmoke;
+  color: black;
+
+}
+
+.about-image{
+  max-height: 80%;
+  border: 6px solid slategray;
+
+}
+
+.text-align-reset{
+  text-align: initial;
+}
+
+.tech-section{
+  background-color: gainsboro;
+
+}
+
+.projects-sections{
+  background-color: snow;
+}
+
+.contact-section{
+  background-color: #303b43;
+
+}
+
+.blue-text{
+  color: lightblue;
+
+}
